@@ -12,6 +12,22 @@ This is an e-commerce website where users can buy different categories of food. 
 - You can switch the currencies.
 - When you close the app, your cart data persists.
 
+## Built With
+- React
+- Redux
+- GraphQL API
+- Jest
+
+## App Screenshots
+### Desktop
+![Desktop Home](https://i.imgur.com/N42y91G.png)
+![Desktop](https://i.imgur.com/Wt2qxT2.png)
+
+### mobile
+![Mobile](https://i.imgur.com/SLnXafH.png)
+
+# [View Live](https://kc-ecommerce-app.herokuapp.com/)
+
 ## Getting Started
 
 - Click on the `Code` green drop down button then COPY.
@@ -26,6 +42,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Tests
 - Run `npm test`.
+
+### Test Result
+![Result](https://i.imgur.com/e7mvyvD.png)
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -71,7 +90,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - I remain indebted to the Facebook team that developed create-react-app as open source.
-To all software engineers, who have impacted on my journey in one way or the other, I say thank you.
+- To all software engineers, who have impacted on my journey in one way or the other, I say thank you.
 
 ## 📝 License
 
