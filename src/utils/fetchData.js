@@ -1,5 +1,5 @@
 const fetchData = async (query) => {
-  const endpoint = 'http://localhost:4000/';
+  const endpoint = 'https://henrykc-ecommerce-mini.herokuapp.com/';
   const method = 'POST';
   const headers = {
     'Content-Type': 'application/json',
