@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:ital,wght@0,300;1,200&display=swap');
+
+.cartContainer {
+  width: 90%;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 200px;
+}
+
+.cartContainer p {
+  margin: 0;
+}
+
+p.cartHeading {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 30px 0;
+}
+
+.cartList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.noProductContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.noProduct {
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .cartContainer {
+    margin-bottom: 100px;
+  }
+
+  p.cartHeading {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    padding: 0;
+  }
+}

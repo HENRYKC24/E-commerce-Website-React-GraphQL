@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:ital,wght@0,300;1,200&display=swap');
+
+.cartItem {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  justify-content: space-between;
+  border-top: solid 0.5px rgb(159, 149, 149);
+  padding-top: 20px;
+  margin: 20px 0;
+}
+
+p.cartHeading {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 80px 0;
+}
+
+.nameStyle {
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 16px;
+}
+
+.status {
+  padding-bottom: 20px;
+}
+
+.cartContainer p.status {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 112px;
+}
+
+.cartList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p.prize {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.sizeList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.sizeItem {
+  height: 45px;
+  width: 63px;
+  border: solid 1px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 45px;
+  font-family: sans-serif;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  height: 45px;
+  width: 45px;
+  border: solid rgb(214, 207, 207);
+  color: rgb(172, 164, 164);
+  background-color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  border: solid #5ece7b;
+  background-color: #5ece7b;
+  color: #fff;
+}
+
+.button:active {
+  border: solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+.itemCount {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.imageStyle {
+  max-height: 220px;
+  width: 350px;
+  margin: auto;
+  margin-left: 8px;
+}
+
+.remove {
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  height: 23px;
+  width: 100px;
+  background-color: rgb(105, 33, 33);
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.remove:hover {
+  background-color: rgb(199, 58, 58);
+}
+
+.secondWord {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .cartItem {
+    grid-template-columns: 100%;
+  }
+
+  .right {
+    flex-direction: column;
+    order: -1;
+  }
+
+  .buttonsContainer {
+    flex-direction: row-reverse;
+  }
+
+  .cartContainer {
+    width: 100%;
+  }
+
+  .imageStyle {
+    max-height: 90%;
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .remove {
+    font-size: 1.5rem;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .secondWord {
+    display: inline;
+  }
+}

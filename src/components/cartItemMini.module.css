@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:ital,wght@0,300;1,200&display=swap');
+
+.cartItem {
+  display: grid;
+  grid-template-columns: 40% 55%;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-top: 10px;
+  border-top: 1px solid rgb(165, 148, 148);
+}
+
+p.prize {
+  font-size: 16px;
+  font-weight: 900;
+  margin: 10px 0 15px;
+  color: #1d1f22;
+}
+
+.sizeList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.sizeItem {
+  height: 24px;
+  min-width: 24px;
+  border: solid 1px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 1px;
+}
+
+.nameStyle {
+  margin: 0 0 5px;
+  font-weight: 900;
+}
+
+.status {
+  margin: 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  height: 24px;
+  width: 24px;
+  line-height: 15px;
+  border: solid rgb(214, 207, 207);
+  color: rgb(172, 164, 164);
+  background-color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.removeBtn {
+  margin: 10px 0 0;
+  background-color: rgb(105, 33, 33);
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 80px;
+  padding: 3px;
+}
+
+.button:hover {
+  border: solid #5ece7b;
+  background-color: #5ece7b;
+  color: #fff;
+}
+
+.button:active {
+  border: solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+.itemCount {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.imageStyle {
+  max-height: 150px;
+  width: 80%;
+  margin: auto;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 800px) {
+  .cartItem {
+    grid-template-columns: 100%;
+    padding: 10px;
+  }
+
+  .right {
+    flex-direction: column;
+    justify-content: flex-start;
+    order: -1;
+  }
+
+  .buttonsContainer {
+    flex-direction: row-reverse;
+  }
+
+  .cartContainer {
+    width: 100%;
+  }
+
+  .imageStyle {
+    max-height: 55%;
+    margin: 10px auto;
+    width: 70%;
+  }
+
+  .remove {
+    font-size: 1.5rem;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .nameStyle {
+    margin-top: -20vw;
+  }
+
+  .secondWord {
+    display: inline;
+  }
+}
