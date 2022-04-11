@@ -90,7 +90,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - I remain indebted to the Facebook team that developed create-react-app as open source.
-To all software engineers, who have impacted on my journey in one way or the other, I say thank you.
+- To all software engineers, who have impacted on my journey in one way or the other, I say thank you.
 
 ## 📝 License
 
