@@ -54,7 +54,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 👤 **Henry Kc**
 
-- GitHub: [@githubhandle](https://github.com/henrykc24)
+- GitHub: [@githubhandle](https://github.com/henrykc24) 
 - Twitter: [@twitterhandle](https://twitter.com/henrykc24)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/henry-kc)
 
