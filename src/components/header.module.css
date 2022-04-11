@@ -7,6 +7,7 @@
   justify-content: space-between;
   padding-top: 30px;
   background-color: #fff;
+  padding-bottom: 10px;
 }
 
 .header {
@@ -30,6 +31,7 @@
   cursor: pointer;
   text-decoration: none;
   color: unset;
+  font-weight: 900;
 }
 
 .navItem:hover {
@@ -174,7 +176,7 @@
 
   .logo {
     position: relative;
-    left: calc(-15%);
+    left: calc(-9%);
     top: -40px;
     margin-top: 5px;
   }
@@ -186,7 +188,7 @@
   }
 
   .currencyArrow {
-    width: 30px;
+    width: 45px;
   }
 
   .currencyStyle {
@@ -195,7 +197,7 @@
 
   .navItem {
     margin-right: 16px;
-    font-size: 0.6rem;
+    font-size: 01rem;
   }
 
   .numOfItemsInCat {
@@ -206,6 +208,6 @@
   }
 
   .logo {
-    left: calc(-9%);
+    left: calc(-16%);
   }
 }

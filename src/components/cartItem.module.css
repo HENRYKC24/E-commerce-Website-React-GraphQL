@@ -149,7 +149,7 @@ p.prize {
   }
 
   .imageStyle {
-    max-height: 90%;
+    max-height: 70%;
     margin: 10px auto;
     width: 100%;
   }
@@ -163,5 +163,13 @@ p.prize {
 
   .secondWord {
     display: inline;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .right {
+    height: 450px;
+    margin-bottom: -20px;
+    gap: 0;
   }
 }

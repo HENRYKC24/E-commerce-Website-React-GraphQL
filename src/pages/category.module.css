@@ -92,7 +92,7 @@
 
 .InCartCartIcon {
   position: absolute;
-  z-index: 50;
+  z-index: 0;
   height: 30px;
   width: 30px;
   margin-top: -20px;
