@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/E-commerce-Website-React-GraphQL/static/css/main.aff2a7c5.css",
+    "main.js": "/E-commerce-Website-React-GraphQL/static/js/main.bf29a854.js",
+    "static/js/787.4fb5f8c8.chunk.js": "/E-commerce-Website-React-GraphQL/static/js/787.4fb5f8c8.chunk.js",
+    "static/media/logo.svg": "/E-commerce-Website-React-GraphQL/static/media/logo.b9e1ed5f497ed3ca5727a181bf225f44.svg",
+    "static/media/in_cart.svg": "/E-commerce-Website-React-GraphQL/static/media/in_cart.c2e3684bc5a8cc6fb5c9fac5037192d5.svg",
+    "static/media/cat.svg": "/E-commerce-Website-React-GraphQL/static/media/cat.dda1308fa7358772c63f3c584b677675.svg",
+    "static/media/no_image.webp": "/E-commerce-Website-React-GraphQL/static/media/no_image.cb3e8fd23a77cfea9e6a.webp",
+    "index.html": "/E-commerce-Website-React-GraphQL/index.html",
+    "static/media/down.svg": "/E-commerce-Website-React-GraphQL/static/media/down.766d7b11f183f77a1e40c47ea18dd7ee.svg",
+    "static/media/up.svg": "/E-commerce-Website-React-GraphQL/static/media/up.f50a5cf5cf8bfef55adfa0e02aae74ee.svg",
+    "main.aff2a7c5.css.map": "/E-commerce-Website-React-GraphQL/static/css/main.aff2a7c5.css.map",
+    "main.bf29a854.js.map": "/E-commerce-Website-React-GraphQL/static/js/main.bf29a854.js.map",
+    "787.4fb5f8c8.chunk.js.map": "/E-commerce-Website-React-GraphQL/static/js/787.4fb5f8c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aff2a7c5.css",
+    "static/js/main.bf29a854.js"
+  ]
+}
